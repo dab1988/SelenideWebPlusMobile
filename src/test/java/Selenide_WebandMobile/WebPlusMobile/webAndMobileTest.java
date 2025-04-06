@@ -12,7 +12,7 @@ public class webAndMobileTest
 		browserClass b= new browserClass();
 		String phone=b.launchBrowser();
 		setUpdevice device= new setUpdevice();
-		device.initialize("908765321");
+		device.initialize(phone);
 		
 	}
 }

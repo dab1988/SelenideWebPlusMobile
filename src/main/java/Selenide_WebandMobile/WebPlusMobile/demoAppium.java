@@ -37,7 +37,7 @@ public class demoAppium implements WebDriverProvider {
             options.setPlatformName("Android");
             
             options.setFullReset(false);
-           options.setCapability("deviceName", "adb-RZCW906GF1T-mYjDhu._adb-tls-connect._tcp"); //physical Device
+           options.setCapability("deviceName", "<provide your device id here>"); //physical Device
 			
           options.setApp(System.getProperty("user.dir")+"/mobileFiles/demoApp.apk");  // not required for browserstack
 
